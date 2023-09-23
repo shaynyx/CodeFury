@@ -1,0 +1,683 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavender;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #6b5b95;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.nav-buttons {
+    margin-right: 20px;
+}
+
+.nav-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu-toggle {
+    display: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Homepage Content Styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+/* Buttons Styles */
+.buttons {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.buttons>.box {
+    background-color: #edc8dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px;
+    border: 2px solid black;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    height: 302px;
+    width: 344px;
+    margin-bottom: 40px;
+    box-shadow: 7px 7px rgb(177, 171, 183);
+    flex-wrap: wrap;
+}   
+ 
+
+.button-text {
+    color: #000000;
+    font-size: 40px;
+    /* font-style: italic; */
+    font-weight: 200;
+}
+
+/* Contact Us Styles */
+.contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+    color: #6b5b95;
+}
+
+.contact-icons {
+    margin-top: 3%;
+    height: 3rem;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6b5b95;
+}
+
+.para {
+    padding: 10px, 2ppx;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+
+}
+
+p1 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+
+p2 {
+    font-weight: bold;
+    color: #6b5b95;
+    font-size: 1.5rem;
+}
+
+.image {
+    size: 1.5rem;
+}
+
+
+
+
+body,
+h1,
+h2,
+p,
+button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+    font-size: 2rem;
+}
+
+header:hover {
+    background-color: #0055aa;
+}
+
+/* Button Styles */
+.therapy-fields {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    background-color: #e5cfe6;
+    padding: 20px;
+}
+.therapy-fieldss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+button:last-child {
+    margin-right: 0;
+}
+
+button:hover {
+    background-color: #0055aa;
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Therapist Profile Styles */
+.therapist-profiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.therapist {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.therapist:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+p {
+    margin-top: 5px;
+    color: #555;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0055aa;
+}
+
+.booked {
+    color: #ff0000;
+    /* Red color for fully booked therapists */
+    font-weight: bold;
+}
+
+
+.additional-content {
+    background-color: #f3d6f2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.additional-content h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.additional-content p {
+    font-size: 1.2rem;
+    color: #000000;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+
+.additional-content ul {
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.additional-content li {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.additional-content p:last-child {
+    margin-bottom: 0;
+}
+
+.weekly-meetups,
+.other-features {
+    background-color: #f3d6f2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.weekly-meetups h2,
+.other-features h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.weekly-meetups p,
+.other-features p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+
+.weekly-meetups ul,
+.other-features ul {
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.weekly-meetups li,
+.other-features li {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+.weekly-meetups p:last-child,
+.other-features p:last-child {
+    margin-bottom: 0;
+}
+
+/* Audio Player Styles */
+.audio-player {
+    text-align: center;
+    margin-top: 20px;
+}
+.spu{
+    color: #000000;
+}
+audio {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+    font-size: 1.5rem;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.therapist {
+    /* ... existing styles ... */
+    transition: transform 0.3s ease;
+}
+
+.therapist:hover {
+    animation: float 2s ease infinite;
+}
+
+
+
+
+/* CHRISTINA */
+body {
+    background-color: #ffe6e6;
+}
+
+.assessment-section {
+    position: relative;
+    /* background: url('https://t3.ftcdn.net/jpg/03/81/44/24/360_F_381442413_JYKppFNa0FpKCun7tGiJN34gh4MYlVMu.jpg'); */
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.assessment-button {
+    background-color: #ff1493;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.assessment-button:hover {
+    background-color: #cc7a00;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.box img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* SHREYA */
+.onlineharassment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3d6f2;
+}
+
+.shreya-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+/* Style for the left image */
+.shreya-image {
+    flex: 1;
+    max-width: 40%;
+}
+
+/* Style for the boxes container */
+.shreya-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    /* Background color for boxes */
+    padding: 20px;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+
+
+/* Style for individual boxes */
+.shreya-box {
+    background-color: #ffd7ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    border:1px solid black;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    height: 302px;
+    width: 450px;
+    box-shadow: 7px 7px rgb(218, 186, 223);
+}
+
+.onlineharassment>h1 {
+    margin-top: 30px;
+}
+
+/* Style for box headings */
+.shreya-box h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Style for box text */
+.shreya-box p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.shreya-box>p {
+    font-size: large;
+}
+
+.shreya-box>h2 {
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+.shreya-box>img {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+.shreya-box:hover{
+transform: scale(1.01);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+button {
+    margin-top: 14px;
+    padding: 13px 13px;
+    text-decoration: none;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #723c8d;
+}
+
+button>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #4b295c;
+}
+
+@media (min-width:554px) and (max-width:986px) {
+    /* .onlineharassment {
+        background-color: aqua;
+    } */
+
+    .shreya-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .shreya-box {
+        height: 230px;
+        width: 500px;
+    }
+}
+
+@media (min-width:0px) and (max-width:554px) {
+
+    /* .onlineharassment {
+        background-color: aqua;
+    } */
+    .buttons>.box {
+       
+        padding: 20px;
+        border: 2px solid black;
+        /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+        height: 102px;
+        width: 244px;
+        margin-bottom: 40px;
+        box-shadow: 7px 7px rgb(177, 171, 183);
+        flex-wrap: wrap;
+    } 
+    .button-text{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .therapist-profiles {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .therapist {
+        width: 480px;
+    }
+
+    .box img {
+        width:140px;
+        height: 140px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    .shreya-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .shreya-box {
+        height: 330px;
+        width: 320px;
+    }
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    height: 30px;
+}

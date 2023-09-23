@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvana</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script>
+        function scrollToTherapyFields() {
+            document.querySelector('.therapy-fields').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollToAssessmentSection() {
+            document.querySelector('.assessment-section').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollToOnlineHarassment() {
+            document.querySelector('.onlineharassment').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div img src=" " class="brand">Nirvana</div>
+        <div class="nav-buttons">
+            <a href="signup.html" target="_blank">Sign Up</a>
+            <a href="login.html" target="_blank">Log In</a>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+
+    <!-- Homepage Content -->
+    <div class="homepage-content">
+
+        <div class="container">
+            <h2 class="homepage-heading">Choose Help. Not Suffering.</h2>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="box">
+            <a class="button" href="#" onclick="scrollToTherapyFields()">
+                <p1 class="button-text">Talk to a Therapist</p1>
+            </a>
+        </div>
+        <div class="box">
+            <a class="button" href="#" onclick="scrollToAssessmentSection()">
+                <p1 class="button-text">Take Online Tests</p1>
+            </a>
+        </div>
+        <div class="box">
+            <a class="button" href="#" onclick="scrollToOnlineHarassment()">
+                <p1 class="button-text">Online Harassment Help</p1>
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- Section 1: Therapy Fields Buttons (This was what I was talking about) -->
+    <!-- <h1>Therapy Fields</h1> -->
+    <section class="therapy-fields">
+        <h1>Therapy Fields</h1><br>
+        <div class="therapy-fieldss">
+        <button data-field="Field 1">Depression</button>
+        <button data-field="Field 2">Suicidal Thoughts</button>
+        <button data-field="Field 3">Teen Issues</button>
+        <button data-field="Field 4">Anxiety</button>
+        <button data-field="Field 5">Self-Harm</button>
+        <button data-field="Field 6">Self-Esteem</button>
+    </div>
+    </section>
+
+    <!-- Section 2: Therapist Profiles -->
+    <section class="therapist-profiles">
+        <!-- Therapist 1 -->
+        <div class="therapist">
+            <img
+                src="https://imagesx.practo.com/providers/dr-smitha-saikumar-ayurveda-bangalore-4dbad162-73f5-49ba-b5e5-85f0ef32af6f.jpg?i_type=t_70x70">
+            <h2>Dr. Lavanya Reddy</h2>
+            <p>Specialty: MA - Psychology</p>
+            <p>Contact: reddy1@yahooo.com</p>
+            <a href="https://www.practo.com/bangalore/psychologist">Book your appointment now!</a>
+        </div>
+
+        <!-- Therapist 2 -->
+        <div class="therapist">
+            <img src="https://imagesx.practo.com/providers/ms-sakshi-agarwal-pt-psychologist-bangalore-08c50b54-0a40-45f2-9f9f-04dea58b74c7.jpg?i_type=t_70x70
+" alt="Therapist 2">
+            <h2>Dr. Anupama Maruvada</h2>
+            <p>Specialty: Masters in Child Life and Family Studies</p>
+            <p>Contact: anupama2@gmailu.com</p>
+            <a href="https://www.practo.com/bangalore/psychologist">Book your appointment now!</a>
+        </div>
+
+        <!-- Therapist 3 -->
+        <div class="therapist">
+            <img src="https://imagesx.practo.com/providers/ms-dextra-serneja-pereira-clinical-psychologist-bangalore-c084c633-2a56-44e7-80e6-d7a673ca0803.jpg?i_type=t_70x70"
+                alt="Therapist 3">
+            <h2>Ms. Shreya Shetty</h2>
+            <p>Specialty: MBBS, M.D. (Psychiatry)</p>
+            <p>Contact: shreya3@berry.com</p>
+            <a href="https://www.practo.com/bangalore/psychologist">Book your appointment now!</a>
+        </div>
+
+        <!-- Therapist 4 -->
+        <div class="therapist">
+            <img src="https://imagesx.practo.com/providers/mr-mitesh-thakkar-counselling-psychologist-bangalore-ec9f6e79-6e39-4908-ae06-bc998ad60a01.jpg?i_type=t_70x70"
+                alt="Therapist 4">
+            <h2>Dr. Venkatesh Babu G M</h2>
+            <p>Specialty: Behavioral therapist</p>
+            <p>Contact: babu4@ebussy.com</p>
+            <p class="booked">Capacity at full, sorry!</p>
+        </div>
+
+        <!-- Therapist 5 -->
+        <div class="therapist">
+            <img src="https://imagesx.practo.com/providers/ms-navya-sree-nambiar-counselling-psychologist-bangalore-23d65442-5944-4dec-9677-20b6aa9a1edb.jpg?i_type=t_70x70
+" alt="Therapist 5">
+            <h2>Ms. Neha Ravichandran</h2>
+            <p>Specialty: Child therapist</p>
+            <p>Contact: neha5@yahou.com</p>
+            <a href="https://www.practo.com/bangalore/psychologist">Book your appointment now!</a>
+        </div>
+
+        <!-- Therapist 6 -->
+        <div class="therapist">
+            <img src="https://imagesx.practo.com/providers/dr-ravi-sankar-av-counselling-psychologist-bangalore-da2b761f-d56a-4671-8b12-62bc830cebe2.jpg?i_type=t_70x70"
+                alt="Therapist 6">
+            <h2>Mr. Senthil Kumar</h2>
+            <p>Specialty: Mental Wellness</p>
+            <p>Contact: kumar6@lala.com</p>
+            <a href="https://www.practo.com/bangalore/psychologist">Book your appointment now!</a>
+        </div>
+    </section>
+
+    <!-- Additional Content -->
+    <section class="additional-content">
+        <h2>You're not alone in feeling lonely. Connect with us and others who understand.</h2>
+        <p>Join our welcoming community, where our highly qualified team, comprised of some of the brightest minds in
+            psychology, is dedicated to enhancing your well-being. Every member has undergone rigorous vetting, bringing
+            their extensive training and experience in a wide array of psychotherapy techniques to support one another.
+            Additionally, we have a thriving Discord community where members come together to provide mutual support,
+            share insights, and foster a sense of belonging.</p>
+        <ul>
+            <li>Video Session</li>
+            <li>Audio Session</li>
+            <li>Chat Session</li>
+            <li>English And All Regional Indian Languages</li>
+        </ul>
+        <p>100% Private & Secure Platform</p>
+        <p>24/7 Support</p>
+    </section>
+
+    <!-- Weekly Meetups Section -->
+    <section class="weekly-meetups">
+        <h2>Weekly Meetups</h2>
+        <p>Join our weekly meetups to connect with others on a similar journey to well-being:</p>
+        <ul>
+            <li><a href="#" class="spu">Monday Meditation</a></li>
+            <li><a href="#" class="spu">Wednesday Wellness Workshop</a></li>
+            <li><a href="#" class="spu">Friday Support Group</a></li>
+        </ul>
+    </section>
+
+    <!-- Other Possible Features Section -->
+    <section class="other-features">
+        <h2>Other Possible Features</h2>
+        <p>Explore other features and services we offer to support your mental health:</p>
+        <ul>
+            <li><a href="#"  class="spu">Therapy Blogs</a></li>
+            <li><a href="#"  class="spu">Personalized Well-Being Plans</a></li>
+            <li><a href="#" class="spu">Mood Tracking Tools</a></li>
+        </ul>
+    </section>
+
+
+
+
+
+
+    <!-- christina -->
+    <section class="assessment-section">
+        <h2>Take a Free Mental Health Test Today!</h2>
+        <p>Scientifically validated standard assessments - quickest way to determine if you are suffering from symptoms
+            of any mental health disorder.</p>
+        <button class="assessment-button" onclick="scrollToBoxes()">Get a Free Report</button>
+    </section>
+
+    <section class="box-container" id="boxContainer">
+        <div class="box">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/woman-with-stress-attack-character-royalty-free-illustration-1622039710.jpg?resize=980:*"
+                alt="Anxiety">
+            <h3>Anxiety</h3>
+            <button onclick="location.href='anxiety-assessment.html'">Take Test</button>
+        </div>
+        <div class="box">
+            <img src="https://d2jx2rerrg6sh3.cloudfront.net/images/Article_Images/ImageForArticle_23447_16729313488683720.jpg"
+                alt="Cyber Bullying">
+            <h3>Cyber Bullying</h3>
+            <button onclick="location.href='cyber-bullying-assessment.html'">Take Test</button>
+        </div>
+        <div class="box">
+            <img src="https://compliancetraininggroup.com/wp-content/uploads/2019/09/cyber-harassment.jpg"
+                alt="Harassment">
+            <h3>Online Harassment</h3>
+            <button onclick="location.href='online-harassment-assessment.html'">Take Test</button>
+        </div>
+        <div class="box">
+            <img src="https://metro.co.uk/wp-content/uploads/2021/10/GettyImages-1278815846.jpg?quality=90&strip=all"
+                alt="Self Esteem">
+            <h3>Self Esteem</h3>
+            <button onclick="location.href='self-esteem-assessment.html'">Take Test</button>
+        </div>
+        <div class="box">
+            <img src="https://www.simplypsychology.org/wp-content/uploads/social-anxiety-judgement.jpeg"
+                alt="Social Anxiety">
+            <h3>Social Anxiety</h3>
+            <button onclick="location.href='self-esteem-assessment.html'">Take Test</button>
+        </div>
+        <div class="box">
+            <img src="https://teambuildinghub.com/wp-content/uploads/2022/05/work-life-balance.webp"
+                alt="Work Life Balance">
+            <h3>Work Life Balance</h3>
+            <button onclick="location.href='self-esteem-assessment.html'">Take Test</button>
+        </div>
+    </section>
+
+    <script>
+        function scrollToBoxes() {
+            // Scroll to the boxContainer
+            document.getElementById("boxContainer").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
+
+    <!-- SHREYA -->
+    <div class="onlineharassment">
+        <h1>Online Harassment Help</h1>
+        <div class="shreya-container">
+
+            <img class="shreya-image" src="cyberbullyimg.jpg" alt="Image">
+            <div class="shreya-boxes">
+                <div class="shreya-box" id="item1">
+                    <img src="blockandreport.png" alt="blockandreport">
+                    <h2>Block and Report</h2>
+                    <p class="boxpara">Block and report harassers on social media platforms. Reporting mechanisms are
+                        often
+                        available to notify platform administrators of abusive behavior.</p>
+                </div>
+                <div class="shreya-box" id="item2">
+                    <img src="privacy.png" alt="privacy">
+                    <h2>Maintain Privacy</h2>
+                    <p>Protect personal information by adjusting privacy settings and limiting what is shared online.
+                    </p>
+                </div>
+                <div class="shreya-box" id="item3">
+                    <img src="communityreport.png" alt="communityreport">
+                    <h2>Community Reporting</h2>
+                    <p>Encourage bystanders to report harassment when they witness it, helping to hold harassers
+                        accountable.</p>
+                </div>
+                <div class="shreya-box" id="item4">
+                    <img src="legalaction.png" alt="legalaction">
+                    <h2>Legal Recourse</h2>
+                    <p>In some cases, harassment may cross legal boundaries, and you can seek legal remedies such as
+                        restraining orders or filing reports with law enforcement.</p>
+                </div>
+                <div class="shreya-box" id="item5">
+                    <h2>Cyber Crime Reporting Portal</h2>
+
+                    <p>You can report cybercrimes through the Ministry of Home Affairs' National Cyber Crime Reporting
+                        Portal This portal allows you to report various types of cybercrimes,
+                        including online harassment.</p>
+
+                    <a href="https://cybercrime.gov.in/" target="_blank"><button>Cyber Crime Portal</button></a>
+                </div>
+                <div class="shreya-box">
+                    <h2>CERT-In </h2>
+                    <p>CERT-In is the national agency for responding to computer security incidents in India. You can
+                        contact them for guidance and reporting cyber threats.</p>
+                    <a href="https://www.cert-in.org.in/" target="_blank"><button>CERT-In</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Contact Us Section -->
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please feel free to contact us.</p>
+        <div class="contact-icons">
+            <a href="#"><img height="40" width="30"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtVJ6VxTxyRz1EJDU83FJmR75ueTLUgIvp8c_5bneKA&s">
+                <p2> EMAIL
+            </a></p2>
+            <a href="#"><img height="40" width="30"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxRgBCwHNjvwHol0ucxU6SeQ4AzdSPgOdAlKCnGJE&s ">
+                <p2>PHONE
+            </a></p2>
+            <a href="#"><img height="40" width="30"
+                    src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsBhc74aMP86iaSfECncJtKO0etpyV72UM_5GMKI&s">
+                <p2>LOCATION
+            </a></p2>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
